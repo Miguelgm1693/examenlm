@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+    </script>
+
+    <title>AVENTURA NATURAL</title>
+</head>
+<body>
+    <header>  
+    </header>
+ 
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#">INICIO</a>
+            <a href="#">KAYAK</a>
+            <a href="#">TREKKING</a>
+            <a href="#">ESPEOLOGÍA</a>
+            <a href="#">PARAPENTE</a>
+            <a href="#">KITESURF</a>
+            <a href="#">VOLCANES</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <h1>VIVE LA AVENTURA EN PLENA NATURALEZA</h1>
+
+        <div class="container img-aventura">
+            <img src="imagenes/canoakayak.jpg" alt="KAYAK" class="image">
+              <div class="overlay">
+                <div class="text">KAYAK</div>
+              </div>
+        </div>
+
+        <div class="container img-aventura">
+            <img src="imagenes/trekking.jpg" alt="TREKKING" class="image">
+              <div class="overlay">
+                <div class="text">TREKKING</div>
+              </div>
+        </div>
+
+        <div class="container img-aventura">
+            <img src="imagenes/espeleologia.jpg" alt="ESPEOLOGÍA" class="image">
+              <div class="overlay">
+                <div class="text">ESPEOLOGÍA</div>
+              </div>
+        </div>
+
+        <div class="container img-aventura">
+            <img src="imagenes/parapente3.jpg" alt="PARAPENTE" class="image">
+              <div class="overlay">
+                <div class="text">PARAPENTE</div>
+              </div>
+        </div>
+
+        <div class="container img-aventura">
+            <img src="imagenes/kitesurf.jpg" alt="KITESURF" class="image">
+              <div class="overlay">
+                <div class="text">KITESURF</div>
+              </div>
+        </div>
+
+        <div class="container img-aventura">
+            <img src="imagenes/volcanica.jpg" alt="VOLCANES" class="image">
+              <div class="overlay">
+                <div class="text">VOLCANES</div>
+              </div>
+        </div>
+
+    </main>
+
+
+    <footer>
+            <p>Página creada por: Miguel González Mora <br>
+                Examen de Lenguaje de Marcas </p>
+    </footer>
+    
+</body>
+</html>
